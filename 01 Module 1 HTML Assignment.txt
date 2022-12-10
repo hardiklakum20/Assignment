@@ -1,0 +1,91 @@
+Q1   Are the HTML tags and elements the same thing?
+Ans: No,HTML tags and elements are not same thing because,HTML Tags
+     are the starting and ending element.They being with < symbol
+     and end with >symbol.And HTML elements enclose the contents in 
+     between the tags.They consist of some kind of structure or expression.
+
+Q2   What Is The Difference between a block-level element and an inline element?
+Ans: Difference Between block-level element ans inline element is A block-level 
+     element always starts on a new line,and browsers automatically add some 
+     space before and after elements.While an inline elements does not start on 
+     a new line there will be only one line within the space width.inline elements 
+     do not respect the top and bottom margins. 
+
+Q3   How to create a Hyperlink in HTML?
+Ans: To Make a hyperlink in an HTML page,use the <a> and </a>tags,which are the tags 
+     used to define the link.In the <a> tag add the URL for the link in the <a href=" ">.
+     The <a> tag indicates where the hyperlink starts and the </a>tag indicates where it
+     end.
+
+Q4   What is the use of an iframe tag?
+Ans: The iframe in HTML stands for inline frame.The iframe tag defines a rectangular 
+     region within the document in which the browser can display a separate document,
+     including scrollbars and borders.The iframe is basically used to show a webpage 
+     inside the current web page.The 'src' is used to specify the URL of the document 
+     that occupies the iframe.
+
+Q5   What is the use of a span tag? Explain with example?
+Ans: The <span> tag is inline container used to mark up a park of a text,or a part of
+     a document.<span>tag not start to new line and not space recquired.
+     Example:- <span> Hello World </span>
+
+Q6   How can we club two or more rows or columns into a single row or column in an HTML table?
+Ans: We can club two or more rows or columns into a single row or column in an HTML table to 
+     use the colspan and rowspan in the <td> HTML tag.We can club two or more table cell in 
+     column using the colspan attribute and club two or more row cells,use the rowspan attribute.      
+
+Q7   What are tags and attributes in HTML?
+Ans: HTML tags are used to hold the html elements.HTML elements holds the                         content.HTML attributes are used to describe the characteristic of an HTML elements in          details.    
+
+Q8   What are different types of lists in HTML?
+Ans: There are three list type in HTML:
+     Unorder List:- used to group a set of releted items in no particular order.In unorder list
+                    show Bullet points
+     Ordered List:- used to group a set of related items in particular order.In order list show 
+                    Numbers,alphabates and romman numbers.
+     Nested List:-  used to create orderlist and unorderlist both type of structure.We can nest
+                    one list in another list which creates a complex type of list.
+     DefinationList:-The basic code for a definition list is formed with the element DL                    (Defination List) and at 
+                    least one elements pair DT(Define Term) and DD(Describe each term).
+
+Q9   What is the ‘class’ attribute in HTML?
+Ans: The class attribute specifies one or more classnames for an element.The class attribute          is mostly used to point to a class in a style sheet.
+
+Q10  What is the difference between the ‘id’ attribute and the ‘class’ attribute of HTML elements?
+Ans: A class name can be used by multiple HTML elements,while an id name must only be used by one 
+     HTML element within the page.
+
+Q11  What are the various formatting tags in HTML?
+Ans: <b>-Bold text
+     <strong>-Strong text
+     <i>-Italic text
+     <mark>-mark text
+     <ins>-inserted text
+     <del>-Deleted text
+     <code>-computer text
+     <small>-small text
+     <sub>-subscript text
+     <sup>-superscript text
+
+Q12  How are active links different from normal links?
+Ans: Normal links when mouse cursor is over that link and don't focus it than that is normal         link.and when mouse cursor is over that link and link is recognize and focus it than that         is a active link.
+
+Q13  What are the different tags to separate sections of text?
+Ans: There are three tags that can be used to separate the texts:
+     * <br>tag-Usually <br> tag is used to separate the line of text.it breaks the current line and
+       conveys the flow to the next line.
+     * <p>tag-This contains the text in the form of a new paragraph.
+     * <blockquote>tag-It is used to define a large quoted section.
+   
+Q14  What are void elements in HTML?
+Ans: A void elements is an element whose content model never allow it to have contents under any                circumstances.Void elements can have attributes.void elements                are:area,br,col,hr,img,input,link,source.     
+      
+Q15  How to insert a picture into a background image of a web page?
+Ans: To set the background image of a webpage,use the CSS style.Under the CSS <style> tag,add the 
+        property background-image.
+
+Q16  What are HTML Entities?
+And:  An HTML entity is a piece of text that begins with an ampersand(&) and ends with a semicoln(;).          Entities arefrequently used to display reserved characters,and invisible characters.
+
+Q17  What is SVG?
+Ans:  SVG stands for scalable vector Graphics.SVG is used to define vector-based graphics for the                 web. SVG Difines the graphics in XML formate.Every element and every attribute in SVG files can          be animated.

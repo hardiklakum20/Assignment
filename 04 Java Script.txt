@@ -1,0 +1,58 @@
+01     What is JavaScript?
+Ans:  JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else. JavaScript on the client
+         side for webpage behaviour.
+
+02     Which company developed JavaScript? 
+Ans:  The first ever JavaScript was created by Brendan Eich at Netscape, and has since been updated to conform to ECMA-262 Edition 5 and later versions
+
+03     What are undeclared and undefined variables?
+Ans:  Undefined variable means a variable has been declared but it does not have a value.Undeclared variable means that the variable does not exist in the program at all.
+
+04     What are all the looping structures in JavaScript?
+Ans:  for - loops through a block of code a number of times
+         for/in - loops through the properties of an object
+         for/of - loops through the values of an iterable object
+         while - loops through a block of code while a specified condition is true
+         do/while - also loops through a block of code while a specified condition is true
+
+05    How can you convert the string of any base to an integer in JavaScript?
+Ans: In JavaScript parseInt() function (or a method) is used to convert the passed in string parameter or value to an integer value itself. This function returns an integer of base which is specified in second argument of parseInt()         function.
+
+06    What are all the types of Pop up boxes available in JavaScript?
+Ans: JavaScript has three kind of popup boxes: Alert box, Confirm box, and Prompt box.
+
+07    What are the disadvantages of using innerHTML in JavaScript?
+Ans: There is no append support without reparsing the whole innerHTML. This makes changing innerHTML directly very slow. innerHTML does not provide validation and therefore we can potentially insert valid and broken HTML in the         document and break it.
+
+08     What is negative Infinity?
+Ans: The value of Number. Negative Infinity is the same as the negative value of the global object's Infinity property. This value behaves slightly differently than mathematical infinity: Any positive value, includiny Positive Infinity ,         multiplied by Nagative Infinity is Negative Infinity.
+
+09     What is the use of isNaN function?
+Ans: The isNaN() function is used to check whether a given value is an illegal number or not. It returns true if value is a NaN else returns false. It is different from the Number.
+
+10    Write the code for adding new elements dynamically?
+Ans: New elements can be dynamically created in JavaScript with the help of createElement() method. The attributes of the created element can be set using the setAttribute() method. The examples given below would demonstrate         this approach.
+
+11     What is the difference between ViewState and SessionState?
+Ans: The basic difference between these two is that the ViewState is to manage state at the client's end, making state management easy for end-user while SessionState manages state at the server's end, making it easy to manage         content from this end too. ViewState: It is maintained at only one level that is page-level.
+
+12    What is === operator?
+Ans: The strict equality operator (===) checks whether its two operands are equal, returning a Boolean result. Unlike the equality operator, the strict equality operator always considers operands of different types to be different.
+
+13    How can the style/class of an element be changed?
+Ans:  The style of an element is by changing its class attribute. class is a reserved word in JavaScript, so in order to access the element's class, you use element. className .
+
+14    How to read and write a file using JavaScript?
+Ans: file=fopen(getScriptPath(),0); The function fread() is used for reading the file content.
+        str = fread(file,flength(file) ; The function fwrite() is used to write the contents to the file.
+        file = fopen("c:\MyFile.txt", 3);// opens the file for writing.
+
+15    What is the function of the delete operator?
+Ans: The delete operator removes a given property from an object. On successful deletion, it will return true , else false will be returned. However, it is important to consider the following scenarios: If the property which you are trying to         delete does not exist, delete will not have any effect and will return true .
+
+16    What is the use of Void (0)?
+Ans: JavaScript void 0 means returning undefined (void) as a primitive value. You might come across the term “JavaScript:void(0)” while going through HTML documents. It is used to prevent any side effects caused while inserting an         expression in a web page.
+
+17    How can a page be forced to load another page in JavaScript?
+Ans: Approach: We can use window. location property inside the script tag to forcefully load another page in Javascript. It is a reference to a Location object that is it represents the current location of the document. We can change         the URL of a window by accessing it.
+ 

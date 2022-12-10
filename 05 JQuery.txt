@@ -1,0 +1,27 @@
+01     What is JQuery?
+Ans:- jQuery is a JavaScript library.jQuery greatly simplifies JavaScript programming.jQuery is easy to learn.
+
+02     How to Apply CSS Using JQuery, How to Add Class and Remove Class in JQuery, JQuery Animation?
+Ans:- <script>
+               $(document).ready(function(){
+                      $(" ").Css(" "," ");
+                })
+
+               $(document).ready(function(){
+	     $(' ').addclass(' ');
+                })
+
+               $(document).ready(function(){
+                      $(' ').removeclass(' ');
+                })
+
+                $(document).ready(function(){
+                      $(' ').animate(' ');	
+          </script>
+
+03      How to create slider with animation?
+Ans:- With jQuery you can create a sliding effect on elements.
+          jQuery has the following slide methods:
+          slideDown()
+          slideUp()
+          slideToggle()

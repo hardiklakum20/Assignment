@@ -1,0 +1,58 @@
+                                                         MODULE:2
+
+01    What is JavaScript Output method?
+Ans:- JavaScript can "display" data in different ways: Writing into an HTML element, using innerHTML.Writing into the HTML output using document.write().
+      Writing into an alert box, using window.alert().Writing into the browser console, using console.log().
+
+02    How to used JavaScript Output method?
+Ans:- 1.Writing into an HTML element, using innerHTML.
+      2.Writing into the HTML output using document.write().
+      3.Writing into an alert box, using window.alert().
+      4.Writing into the browser console, using console.log() .
+
+03    How to used JavaScript Events to do all examples?
+Ans:- Input Event :- onblur,onchange,onfocus,onselect,onsubmit,onkeydown,onkeypress.
+      Mouse Event :- onmouseover,onmousedown,onmousemove.
+      Click Event :- onclcik,ondblclick.
+      Load Event  :- onload,onerror,onunload,onresize.
+                           
+                                                            MODULE:3 
+
+04    What is React Js?
+Ans:- React is a JavaScript library created by Facebook.React is a User Interface (UI) library.React is a tool for building UI components.
+
+05    What is NPM in React Js?
+Ans:- NPM is short for node package manager, an online directory that contains the various already registered open-source packages. NPM modules consume the various 
+      functions as a third-party package when installed into an app using the NPM command npm install.
+
+06    What is Role of Node Js in react Js?
+Ans:- Node is the most popular platform for hosting and running web servers for React apps. After all, using NPM (Node Package Manager), you can install any 
+      package with NPM command-line interface CLI.  Moreover, Node utilizes Webpack and other modules to turn a React application into an easily compilable 
+      single file.
+
+07    What is CLI command In React Js?
+Ans:- create-react-app used to generate the boilerplate version of a React application thru command line.
+
+08    What is Components in React Js?
+Ans:- Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions, but work in isolation and return HTML. 
+      Components come in two types, Class components and Function components, in this tutorial we will concentrate on Function components.
+
+09    What is Header and Content Components in React Js?
+Ans:- Headers are compositions that extend standard navbar functionalities. They contain additional components like a jumbotron, sub-navbar, 
+      or image covers which serve as a containers for extra navigation elements - usually links, forms, or call-to-action buttons.
+
+10    How to install React Js on Windows, Linux Operating System? How to install NPM and How to check version of NPM?
+Ans:- Install Node.js installer for windows. Click on this link. Here install the LTS version (the one present on the left). 
+      Once downloaded open NodeJS without disturbing other settings, click on the Next button until it’s completely installed.
+      Open command prompt  to check whether it is completely installed or not type the command –>  node -v.
+      Now in the terminal run the below command: npm install -g create-react-app.
+      It will globally install react app for you. To check everything  went well run the command  
+             create-react-app --version  
+      Now Create a new folder where you want to make your react app using the below command: mkdir newfolder.
+      Move inside the same folder using the below command: cd newfolder (your folder name).
+      To start your app run the below command :npm start.  
+
+11    How to check version of React Js?
+Ans:- To check which React version is your project using you need to open the package. json. 
+      Take a look under the dependencies section. It should list all of the dependencies of your project and one of those should be React.
+

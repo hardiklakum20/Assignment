@@ -1,0 +1,115 @@
+Q1   What are the benefits of using CSS?
+Ans: CSS handles the look and feel part of a web page.using CSS,you can control the color 
+        of the text,the style of fonts,the spacing between paragraphs,columns are sized and laid out,
+        etc.
+
+Q2   How can the background color of an element be changed?
+Ans: In the CSS used to background-color property then changed background-
+        color.
+
+Q3   What is embedded style sheets?
+Ans: Embedded style sheet is also called to internal style sheet.
+     embedded style sheet is worked in to HTML document using the <style>
+     element.Embedding the style sheet information within <style></style>
+     tags in the head of your document.
+
+Q4   What are the external style sheets?
+Ans: An External style sheet is a separate CSS file that can be accessed by
+     creating link within the head section of the webpage.The link to an external
+     style sheet is places within the head section of the page.
+
+Q5   What are the advantages and disadvantages of using external style sheets?
+Ans: Advantages:- The style of multiple documents can be controlled from one 
+                  file.
+                  classes can be created for use on multiple HTML element type
+                  in many documents.
+                  In complex situation,selector and grouping methods can be used
+                  to apply styles.
+    Disadvantages:-In order to import style information for each document,an extra 
+                   download is needed.
+                   Until the external style sheet is loaded,it may not be possible to 
+                   render the document.
+                   For small number of style definition,it is not viable.
+
+Q6   How can image repetition of the backup be controlled?
+Ans: To control the repetition of an image in the background,use the background-repeat property.
+     you can use no-repeat value for the background-repeat property if you do not want to repeat
+     an image,in this case,the image will display only once.
+
+Q7   What is the use of the background-position property?
+Ans: The background-position property sets the starting position of a background image.By default,
+     a background-image is placed at the top-left corner of an elements,and replaced both vertically 
+     and horizontally.
+
+Q8   Which property controls the image scroll in the background?
+Ans: Background-attachment property controls the image scroll in the background.
+
+Q9   What are the disadvantages of CSS?
+0Ans: CSS result in creating of confusion among web browsers.with CSS,what works with one 
+        browser might not always work with another.there exists a scarcity of security. The similar
+        change affects on all the browsers.CSS works differently on different browsers.There are
+        multiple levels which creates confusion for non-developers and beginners.
+
+Q10  Name a few CSS style components
+Ans:  CSS Style Components are:
+         Selector:- HTML elements name,id name,class name.
+         Property:-It's like an attribute such as background color,font-size,position,text-align,color,
+                         border etc.
+         values:- Which defines property or values allocate for properties.
+
+Q11  What do you understand by CSS opacity?
+Ans:  The opacity CSS property sets the opacity of an elements. opacity is the degree to which 
+         content behind an elements is hidden,an is the opposite of transparency.
+
+Q12  Why should background and color be used as separate properties?
+Ans:  There are two reasons behind this: It enhances the legibility of style sheets.The background 
+         property is a complex property in CSS, and if it is combined with color, the complexity will further 
+         increase.
+
+Q13  How to center block elements using CSS1?
+Ans:  CSS the way to center anything that's block level element is with the margin property. One of the 
+         values of margin is auto and by setting auto on the left and right margin our block level element 
+         will center itself.
+
+Q14  What are the ways to integrate CSS as a web page?
+Ans:  There are Three ways to integrate CSS as a web page:-
+         (1)Inline:- You can add inline CSS in a style attribute to style a single HTML elements on the page.
+         (2)Embed:- Embed(internal) stylesheet by adding CSS to the head section of HTML doc.
+         (3)External:- In External you can link to an external stylesheet that will contain all your CSS separate 
+                             from your HTML.    
+
+Q15  What are the media types allowed by CSS?
+Ans: Continuous or paged.
+        visual,audio,speech,or tactile
+        Grid
+        interactive or static
+
+Q16  What is the difference between CSS2 and CSS3?
+Ans: Unlike CSS2,which was comprised of a single document,CSS3 has its specification divided into many
+       individual modules,which maks CSS3 a whole lot easier to handle.With CSS3,the designers can now use 
+       special fonts,like those available in google fonts and typecast. 
+
+Q17 What is the meaning of the CSS selector?
+Ans: A CSS selector is the first part of a CSS rule. it is a pattern of elements and other terms that tell the
+       browser which HTML elements should be selected to have the css property values inside the rule 
+       applied to them.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

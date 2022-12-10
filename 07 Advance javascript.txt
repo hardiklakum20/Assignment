@@ -1,0 +1,193 @@
+01    What is JSON
+Ans:- JSON stands for JavaScript Object Notation.JSON is a lightweight format for storing and transporting data.JSON is often used when data is sent from a server 
+      to a web pag.JSON is "self-describing" and easy to understand
+
+02    What is promises
+Ans:- A Promise is a proxy for a value not necessarily known when the promise is created. It allows you to associate handlers with an asynchronous action's eventual 
+      success value or failure reason. This lets asynchronous methods return values like synchronous methods: instead of immediately returning the final value, 
+      the asynchronous method returns a promise to supply the value at some point in the future.
+
+03    Write a program of promises and handle that promises also
+Ans:- new Promise((resolveOuter) => {
+      resolveOuter(
+         new Promise((resolveInner) => {
+           setTimeout(resolveInner, 1000);
+          })
+        );
+      });
+
+04    Use fetch method for calling an api https://fakestoreapi.com/products
+Ans:- fetch('https://fakestoreapi.com/products/1')
+            .then(res=>res.json())
+            .then(json=>console.log(json))
+
+05    Display all the product from the api in your HTML page
+Ans:- JavaScript is a very powerful programming language that is consistently used with HTML in web programming. One of the many things that you can do with 
+      JavaScript is that you can Fetch API Results from their respective endpoints. In this walkthrough, you are going to learn how to extract Rick and Morty data 
+      from an API and display it on an HTML page.
+
+06    Write a program to Show an alert
+Ans:- <script>
+      function showAlert() {
+         alert ("Hello world!");
+        }
+      </script>
+
+07    Will alert be shown? if ("0") { alert( 'Hello'); }  
+Ans:- Yes, it will.Any string except an empty one (and "0" is not empty) becomes true in the logical context.We can run and check:
+      if ("0") {
+         alert( 'Hello' );
+      }
+
+08    What is the code below going to output? alert( null || 2 || undefined );
+Ans:- The answer is 2, that’s the first truthy value.
+      alert( null || 2 || undefined );
+
+09  Replace Function Expressions with arrow functions
+Ans:- function ask(question, yes, no) {
+  if (confirm(question)) yes();
+  else no();
+}
+
+ask(
+  "Do you agree?",
+  () => alert("You agreed."),
+  () => alert("You canceled the execution.")
+);
+
+10    Create an empty object user.
+Ans:- Creating an empty object assigning it to "{}" in an Object prototype will be the same Object instance in every Object instance created by a "new" operator.
+
+11    Add the property name with the value John
+Ans:- const person = {
+        fname:" John",
+        lname:" Doe",
+        age: 25
+        };
+
+     for (let x in person) {
+     txt += person[x];
+     }
+
+12   Add the property surname with the value Smith.
+Ans:- const person = {
+        fname:" John",
+        sname:"smith",
+        lname:" Doe",
+        age: 25
+        };
+
+     for (let x in person) {
+     txt += person[x];
+
+13    Remove the property name from the object.
+Ans:- var person = {
+        firstName:"John",
+        lastName:"Doe",
+        age:50,
+        eyeColor:"blue"
+       };
+
+      delete person.age;
+
+14    Map to names
+Ans:- let john = { name: "John", age: 25 };
+        let pete = { name: "Pete", age: 30 };
+        let mary = { name: "Mary", age: 28 };
+
+        let users = [ john, pete, mary ];
+
+        let names = users.map(item => item.name);
+
+        alert( names ); // John, Pete, Mary
+     }
+
+15    Map to objects
+Ans:- let john = { name: "John", surname: "Smith", id: 1 };
+      let pete = { name: "Pete", surname: "Hunt", id: 2 };
+      let mary = { name: "Mary", surname: "Key", id: 3 };
+
+      let users = [ john, pete, mary ];
+
+      let usersMapped = users.map(user => ({
+      fullName: `${user.name} ${user.surname}`,
+      id: user.id
+       }));
+
+     alert( usersMapped[0].id ); // 1
+     alert( usersMapped[0].fullName ); // John Smith
+
+16    Sum the properties There is a salaries object with arbitrary number of salaries. Write the function sumSalaries(salaries) that returns the sum of all salaries
+      using Object.values and the for..of loop.If salaries is empty, then the result must be 0.
+Ans:- function sumSalaries(salaries) {
+
+  let sum = 0;
+  for (let salary of Object.values(salaries)) {
+    sum += salary;
+  }
+
+  return sum; // 650
+}
+
+let salaries = {
+  "John": 100,
+  "Pete": 300,
+  "Mary": 250
+};
+
+17  Destructuring assignment We have an object: Write the Destructuring assignment that reads: 
+Ans:-
+ let user = {
+  name: "John",
+  years: 30
+};
+
+let {name, years: age, isAdmin = false} = user;
+
+alert( name ); // John
+alert( age ); // 30
+alert( isAdmin ); // false
+Ans:- let user = {
+  name: "John",
+  years: 30
+};
+
+18    Create a program to hide/show the password
+Ans:- Step 1) Add HTML:
+<!-- Password field -->
+Password: <input type="password" value="FakePSW" id="myInput">
+
+<!-- An element to toggle between password visibility -->
+<input type="checkbox" onclick="myFunction()">Show Password
+Step 2) Add JavaScript:
+function myFunction() {
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+
+19  Create a form and validate using JavaScript
+Ans:-
+<script>  
+function validateform(){  
+var name=document.myform.name.value;  
+var password=document.myform.password.value;  
+  
+if (name==null || name==""){  
+  alert("Name can't be blank");  
+  return false;  
+}else if(password.length<6){  
+  alert("Password must be at least 6 characters long.");  
+  return false;  
+  }  
+}  
+</script>  
+<body>  
+<form name="myform" method="post" action="abc.jsp" onsubmit="return validateform()" >  
+Name: <input type="text" name="name"><br/>  
+Password: <input type="password" name="password"><br/>  
+<input type="submit" value="register">  
+</form>  
