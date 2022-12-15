@@ -56,3 +56,10 @@ Ans:- Install Node.js installer for windows. Click on this link. Here install th
 Ans:- To check which React version is your project using you need to open the package. json. 
       Take a look under the dependencies section. It should list all of the dependencies of your project and one of those should be React.
 
+
+                                                            MODULE 4 
+
+12    Explain Life cycle in Class Component and functional component with Hooks
+Ans:- A React component undergoes three phases in its lifecycle: mounting, updating, and unmounting. The mounting phase is when a new component is created and 
+      inserted into the DOM or, in other words, when the life of a component begins. This can only happen once, and is often called “initial render.”
+
